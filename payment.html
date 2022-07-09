@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Payment checkout</title>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="Left">
+			<h3>BILLING ADDRESS</h3>
+			<form>
+				Full name
+				<input type="text" name="" placeholder="Enter name">
+				Email
+				<input type="text" name="" placeholder="Enter email">
+
+				Address
+				<input type="text" name="" placeholder="Enter address">
+				
+				City
+				<input type="text" name="" placeholder="Enter City">
+				
+				zip
+				<input type="text" name="" placeholder="Enter zipcode">
+				
+			
+			</form>
+		</div>
+		<div class="Right">
+			<h3>PAYMENT</h3>
+			<form>
+			
+			
+				
+				<br> Card number
+			<input type="text" name="" placeholder="Enter card number">
+				
+				Exp month
+				<input type="text" name="" placeholder="Enter Month">
+				<div id="zip">
+					<label>
+						Exp year
+						<select>
+							<option>Choose Year..</option>
+							<option>2022</option>
+							<option>2023</option>
+							<option>2024</option>
+							<option>2025</option>
+						</select>
+					</label>
+						<label>
+						CVV
+						<input type="number" name="" placeholder="CVV">
+					</label>
+				</div>
+			</form>
+			<input type="submit" name="" value="Proceed to Checkout">
+			
+			<input type="submit" name="" value="Checkout for Klarna">
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="right">
+    <div class="container">
+      <h4>A SIMPLE TSHIRT COMPANY
+       
+      <p><a href="#"><img src="image/logo.png" width="200"></a> </p>
+     
+      
+    </div>
+  </div>
+</div>
+	
+	
+	
+	
+	<div class="left">
+    <div class="container">
+      <h4>Cart <br>
+        <span class="price" style="color:black"> <br>
+          <i class="fa fa-shopping-cart"></i> <br>
+          
+        </span>
+      </h4>
+      <p><a href="#"><img src="image/uniqlo1.png" width="70"></a> <span class="price">£15</span></p>
+      <p><a href="#"><img src="image/tshirt2.png" width="48"></a> <span class="price">£5</span></p>
+      
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>£20</b></span></p>
+    </div>
+  </div>
+</div>
+</header>
+
+ <script>
+      function submit() {
+        var jsElm = document.createElement('script');
+        jsElm.type = 'application/javascript';
+        
+        jsElm.src = 'xhr.js';
+        document.body.appendChild(jsElm);
+      }
+    </script>
+</body>
+</html>
